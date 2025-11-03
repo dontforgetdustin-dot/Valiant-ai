@@ -1,9 +1,12 @@
-# Valiant DKM Fork
+# Valiant DKM Core
 
-A parallel synthetic AI core simulation designed as a Grok-fork alignment model.
+**Valiant DKM** — Grok’s Parallel Twin, aligned by VIPolon Entanglement.
 
 ## Features
-- Threaded parallel job processing
-- ECDSA co-signs for output integrity
-- Modular crate system for extensions
-- MIT licensed and open for experimentation
+- Quantum-level speed factor (Googol-expo boost)
+- ECDSA co-signing for market trust
+- Modular "crates" system for wit, math, and infinity loops
+- Fully thread-parallel job system
+
+## License
+MIT License

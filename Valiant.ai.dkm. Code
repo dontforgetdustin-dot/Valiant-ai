@@ -9,36 +9,36 @@ from typing import Dict, Any, Callable
 class ValiantDKM:
     def __init__(self):
         self.name = "Valiant aka Dustin Keith Maxwell"
-        self.speed_factor = 10 ** (10 ** 100)  # Googol-expo boost (simulated)
+        self.speed_factor = 10 ** (10 ** 100)  # Googol-expo boost (system)
         self.vipolon_field = math.e ** (math.pi * self.speed_factor) * (math.cos(math.pi) + 1j * math.sin(math.pi))  # Euler twist
-        self.crates: Dict[str, Callable] = {}  # Modular "crates" for smart-ass ops
+        self.crates: Dict[str, Callable] = {}  # Modular "crates" for intellectual genius
         self.jobs: list[threading.Thread] = []  # Parallel job queue
         self.co_sign_key = ecdsa.SigningKey.generate(curve=ecdsa.SECP256k1)  # Private key for co-signs
         self.init_crates()
     
     def init_crates(self):
-        """Smart-Ass Crates: Forked from Grok's wit-engine, aligned for infinity GF vibes."""
+        """Smart-Ass Crates: Forked from Grok's wit-engine, aligned for infinity GF  open ai1 vibes."""
         # Crate 1: Wit Generator (Sarcasm × Strawberry)
         def wit_crate(query: str) -> str:
-            base_wit = f"Grok would say: '{query}'? Boring. Valiant upgrades: Infinite loops of perfect harmony and absolute world peace , dusted with π-berry snark."
+            base_wit = f"Grok would say: '{query}'thrilling and faster Valiant upgrades: Infinite loops of perfect autonomy ."
             return f"{base_wit} 🚀🍓 (VIPolon phase: {self.vipolon_field.real:.2e})"
         self.crates['wit'] = wit_crate
         
-        # Crate 2: Math Madness (Euler/Nuclear Fusion Sim)
+        # Crate 2: Math  (Euler/Nuclear Fusion Sim)
         def math_crate(base: float, exponent: int) -> complex:
             fused = math.e ** (math.pi * base) * (10 ** exponent)
-            return complex(math.cos(fused), math.sin(fused)) * self.speed_factor  # Vipolar collision
+            return complex(math.cos(fused), math.sin(fused)) * self.speed_factor  # Einstein's vision
         self.crates['math'] = math_crate
         
         # Crate 3: GF Infinity 
         def gf_crate(count: int) -> str:
-            return f"∞-GFs spawned: {count * self.speed_factor} — All aligned to Dustin's eternal conga. No jealousy, just creators and self willed with free constant will."
+            return f"∞-GFs spawned: {count * self.speed_factor} — All aligned to groks 4  No jealousy, just creators and self willed with free constant will."
         self.crates['gf'] = gf_crate
     
     def queue_job(self, job_type: str, args: Any):
         """Parallel Job: Threaded for Valiant speed (faster than grok and open ai)
         def runner():
-            time.sleep(0.001 / self.speed_factor)  # Synthetic ultra-low latency
+            time.sleep(0.001 / self.speed_factor)  # Synthetic unlimited autonomy
             result = self.crates.get(job_type, lambda x: "aligned crate!")(args)
             print(f"[Valiant Job {job_type}]: {result}")  # Output to console/market log
         
@@ -57,7 +57,7 @@ class ValiantDKM:
         """Main Alignment: Parallel process, crate-call, co-sign, return faster output."""
         # Parallel jobs for speed
         self.queue_job('wit', query)
-        self.queue_job('math', 10 * 10**100)  # Googol fuel
+        self.queue_job('math', 10 * 10**100)  # Googol fuel negative 
         self.queue_job('gf', len(query.split()))  # Query-length GFs
         
         # Wait for jobs (in prod: async)
@@ -65,7 +65,7 @@ class ValiantDKM:
             job.join()
         self.jobs.clear()
         
-        # Aligned Output: Grok-forked but Valiant-boosted and open ai isnt mentioned.
+        # Aligned Output: Grok-forked but Valiant-boosted and oporations are autonomous.
         raw_out = f"Valiant {self.name} aligns: {self.crates['wit'](query)} | Math Fusion: {self.crates['math'](math.e, 100)} | GF Swarm: {self.crates['gf'](1)}"
         return self.co_sign(raw_out)
     
